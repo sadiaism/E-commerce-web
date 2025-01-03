@@ -11,17 +11,17 @@ const page = () => {
        
                     <label htmlFor="name">Name</label>
                     <input type="text"
-                    className='h-[40px] w-[540px] bg-transparent border border-black sm:w-[350px]'
+                    className='h-[40px] w-[350px] bg-transparent border border-black md:w-[540px]'
                     id="name" />
 
                     <label htmlFor="email">Email</label>
                     <input type="text"
-                    className='h-[40px] w-[540px] bg-transparent border border-black sm:w-[350px]'
+                    className='h-[40px] w-[350px] bg-transparent border border-black md:w-[540px]'
                     id="email"/>
 
                     <label htmlFor="message">Message</label>
                     <input type="text"
-                    className='h-[70px] w-[540px] bg-transparent border border-black sm:w-[350px]'
+                    className='h-[70px] w-[350px] bg-transparent border border-black md:w-[540px]'
                     id="message"/>
 
                     <button className='bg-transparent border border-black w-[100px] h-[50px] hover:bg-slate-300'>send</button>
