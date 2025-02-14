@@ -1,16 +1,18 @@
 "use client"
-import React, { useState } from 'react'
+import React, { useState} from 'react'
 import Link from 'next/link';
 import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai'
 
 
 
+
 const Header = () => {
+  
     const [isMenuOpen ,setIsMenuOpen] = useState(false);
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen)
     }
-  return (
+return (
     <header>
     <div className='flex justify-around items-center bg-black text-[#FFFFFF] h-[100px]'>
         <h1>Blog Website</h1>
@@ -38,7 +40,8 @@ const Header = () => {
   <Link href="/contact"  className='hover:text-blue-500' onClick={toggleMenu}>Contact</Link>
   </nav>
   )
-  }
+}
+
 </header>
 
 
