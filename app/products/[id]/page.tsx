@@ -32,7 +32,7 @@ console.log(data)
 
 
 const addToCart = () => {
-  let cart: ICartItem[] = JSON.parse(localStorage.getItem("cart") || "[]");
+  const cart: ICartItem[] = JSON.parse(localStorage.getItem("cart") || "[]");
   const item: ICartItem = {
     id: data.id,
     title: data.title,
